@@ -12,7 +12,7 @@
  * @uses Zend_Application_Resource_Router
  * @uses Dk_Config
  * @package Dk
- * @subpackage ApplicationResources
+ * @subpackage Router
  */
 class Dk_Application_Resource_Router extends Zend_Application_Resource_Router
 {

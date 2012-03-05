@@ -10,7 +10,7 @@
  * Dk_Application_Resource_Lucene
  * 
  * @package Dk
- * @subpackage ApplicationResources
+ * @subpackage Lucene
  * @uses Zend_Application_Resource_ResourceAbstract
  */
 class Dk_Application_Resource_Lucene extends Zend_Application_Resource_ResourceAbstract

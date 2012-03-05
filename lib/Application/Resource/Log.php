@@ -11,7 +11,7 @@
  *
  * @uses Zend_Application_Resource_ResourceAbstract
  * @package Dk
- * @subpackage ApplicationResources
+ * @subpackage Log
  */
 class Dk_Application_Resource_Log extends Zend_Application_Resource_ResourceAbstract
 {

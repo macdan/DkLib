@@ -1,6 +1,12 @@
 <?php
 
 /**
+ * Mailtransport.php
+ *
+ * @author Daniel Kendell <daniel.kendell@gmail.com>
+ */
+
+/**
  * Dk Resource Mail Transport
  *
  * @uses Zend_Application_Resource_ResourceAbstract
