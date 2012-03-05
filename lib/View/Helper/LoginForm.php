@@ -17,8 +17,8 @@ class Dk_View_Helper_LoginForm extends Zend_View_Helper_Abstract
 {
 	/**
 	 * loginForm
-         * 
-         * Return the login form instance held in the auth resource
+	 * 
+	 * Return the login form instance held in the auth resource
 	 *
 	 * @return Zend_Form The login form
 	 */
