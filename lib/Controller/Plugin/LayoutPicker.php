@@ -26,18 +26,18 @@ class Dk_Controller_Plugin_LayoutPicker extends Zend_Controller_Plugin_Abstract
 	 */
 	public function preDispatch( Zend_Controller_Request_Abstract $request )
 	{
-		$module = $request->getModuleName();
-		$module = ( $module ? $module : 'default' );
-		
-		$bootstrap = Zend_Controller_Front::getInstance()
-			->getParam( 'bootstrap' );
+            $module = $request->getModuleName();
+            $module = ( $module ? $module : 'default' );
 
-		if ( $bootstrap->hasResource( 'log' ) )
-		{
-			$bootstrap->getResource( 'log' )
-				->debug( __METHOD__ . " - Setting layout to {$module}" );
-		}
-		
-		Zend_Layout::getMvcInstance()->setLayout( $module );
+            $bootstrap = Zend_Controller_Front::getInstance()
+                    ->getParam( 'bootstrap' );
+
+            if ( $bootstrap->hasResource( 'log' ) )
+            {
+                    $bootstrap->getResource( 'log' )
+                            ->debug( __METHOD__ . " - Setting layout to {$module}" );
+            }
+
+            Zend_Layout::getMvcInstance()->setLayout( $module );
 	}
 }
