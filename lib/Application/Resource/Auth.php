@@ -30,8 +30,8 @@ class Dk_Application_Resource_Auth extends Zend_Application_Resource_ResourceAbs
 
 	/**
 	 * init
-         * 
-         * Initialises the Auth resource. 
+	 * 
+	 * Initialises the Auth resource. 
 	 *
 	 * @access public
 	 * @return Dk_Auth The Dk_Auth instance
